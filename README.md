@@ -1,33 +1,28 @@
 ## Book DataBase
+To use the program
 
-### 25.day tasks
+* Create a virtual environment
+* Install PyMySQL pip package
+* Connect to the database.
 
-1. A console app should be created as in day16-day19, but the data will be written to the database instead of being written to a file.
-2. Create a virtual environment
-3. Install PyMySQL pip package
-4. Connect to the database.
-5. The app should have some functions. (create_table, create_book, show_all, show_book)
-
-6. When the user enters the command add table (python main.py add table), The application should create the Book_info table.
-7. When the user enters the command add book (python main.py add book), The application should ask the fields.
-
-8. When the user enters the all fields, The application should insert the book to the Book_info table.
-9. When the user enters the command show all (python main.py ahow all), The application should show all books from the table.
-
-10. When the user enters the command show book (python main.py ahow book), The application should ask the id.
-11. When the user enters the id of a book, The application should show info about this book.
+In a virtual environment with this command - pip install -r requirements.txt
+You can download all packages
+http://localhost:8080/
+user: root
+password: 321
 
 
-### Step 2
 
-12. When the user enters the command change status (python main.py change status), The application should ask the id.
-13. When the user enters the id of a book, The exist fiels should be true if it is false or should be false if it is true.
+1. python3 main.py add table - Create a table using the command
+2. python3 main.py add book - Enter the book name and author with the command
+3. python3 main.py ahow all - It shows all the books in the table with the command
+4. python3 main.py show book - The id entered with the command shows the book.
+5. python3 main.py change price - Change the price of the book with the id entered with the command
+6. python3 main.py remove - Deletes the book from the table with the id entered with the command
+7. python3 main.py search - Finds the book according to the entered author and book name
 
-14. When the user enters the command change price (python main.py change price), The application should ask the id and new price.
-15. When the user enters the id of a book and new price, the price of this book should change to given price.
 
-16. When the user enters the command remove (python main.py remove), The application should ask the id.
-17. When the user enters the id of a book, this book should be deleted from table.
 
-18. When the user enters the command search (python main.py search), The application should ask the search word.
-19. When the user enters the search word, The application should show all books which title or author contains this word.
+---------------------Goog Luck------------------
+
+
