@@ -5,11 +5,11 @@ To use the program
 * Install PyMySQL pip package
 * Connect to the database.
 
-In a virtual environment with this command - pip install -r requirements.txt
-You can download all packages
-http://localhost:8080/
-user: root
-password: 321
+* In a virtual environment with this command - pip install -r requirements.txt
+* You can download all packages
+* http://localhost:8080/
+* user: root
+* password: 321
 
 
 
